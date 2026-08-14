@@ -2,6 +2,7 @@ const request = require('supertest');
 const { expect } = require('chai');
 require('dotenv').config()
 
+
 describe('Login', () => {
     describe ('POST /login', () => {
         it('Deve retornar 200 com token em String quando usar credencias validas', async() => {
